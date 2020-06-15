@@ -1,0 +1,11 @@
+name: "KubeAction Test Action"
+description: "for test action"
+author: "wesky93@gmail.com"
+
+branding:
+  icon: "message-square"
+  color: "purple"
+
+runs:
+  using: docker
+  image: docker://wesky93/debug-action:latest
